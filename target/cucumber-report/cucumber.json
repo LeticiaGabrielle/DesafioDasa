@@ -1,0 +1,122 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-16T16:38:48.252Z",
+        "line": 8,
+        "name": "Desafio Dasa",
+        "description": "",
+        "id": "desafio-dasa-jornada-médica;desafio-dasa",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13265000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Que acesso o site institucional da Dasa",
+            "match": {
+              "location": "steps.DesafioDasaSteps.queAcessoOSiteInstitucionalDaDasa()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1396000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clico no link Nossas Marcas",
+            "match": {
+              "location": "steps.DesafioDasaSteps.clicoNoLinkNossasMarcas()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1650000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Listo no console todos os laboratórios de São Paulo",
+            "match": {
+              "location": "steps.DesafioDasaSteps.listoNoConsoleTodosOsLaboratóriosDeSãoPaulo()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 216000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Seleciono o laboratório Delboni Auriemo",
+            "match": {
+              "location": "steps.DesafioDasaSteps.selecionoOLaboratórioDelboniAuriemo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 878000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "valido meu acesso na área do laboratório",
+            "match": {
+              "location": "steps.DesafioDasaSteps.validoMeuAcessoNaÁreaDoLaboratório()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 302000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no link com nome da marca",
+            "match": {
+              "location": "steps.DesafioDasaSteps.clicoNoLinkComNomeDaMarca()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5228000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valido o direcionamento correto para o site do Delboni Auriemo.",
+            "match": {
+              "location": "steps.DesafioDasaSteps.validoODirecionamentoCorretoParaOSiteDoDelboniAuriemo()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature"
+          }
+        ]
+      }
+    ],
+    "name": "Desafio Dasa Jornada médica",
+    "description": "",
+    "id": "desafio-dasa-jornada-médica",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/desafiodasa.feature",
+    "tags": [
+      {
+        "name": "@Feature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
